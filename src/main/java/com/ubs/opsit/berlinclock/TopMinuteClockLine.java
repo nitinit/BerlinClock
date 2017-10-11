@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews.impl;
+package com.ubs.opsit.berlinclock;
 
 /**
 *

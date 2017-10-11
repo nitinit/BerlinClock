@@ -5,6 +5,11 @@ import static com.ubs.opsit.interviews.impl.ClockExceptionConstants.INVALID_TIME
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+import com.ubs.opsit.berlinclock.BottomHourClockLine;
+import com.ubs.opsit.berlinclock.BottomMinuteClockLine;
+import com.ubs.opsit.berlinclock.SecondClockLine;
+import com.ubs.opsit.berlinclock.TopHourClockLine;
+import com.ubs.opsit.berlinclock.TopMinuteClockLine;
 import com.ubs.opsit.interviews.TimeConverter;
 
 public class BerlinClockTimeConverterImpl implements TimeConverter {

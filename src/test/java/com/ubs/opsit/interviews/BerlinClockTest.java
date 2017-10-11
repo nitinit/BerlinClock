@@ -3,11 +3,11 @@ package com.ubs.opsit.interviews;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.ubs.opsit.interviews.impl.BottomHourClockLine;
-import com.ubs.opsit.interviews.impl.BottomMinuteClockLine;
-import com.ubs.opsit.interviews.impl.SecondClockLine;
-import com.ubs.opsit.interviews.impl.TopHourClockLine;
-import com.ubs.opsit.interviews.impl.TopMinuteClockLine;
+import com.ubs.opsit.berlinclock.BottomHourClockLine;
+import com.ubs.opsit.berlinclock.BottomMinuteClockLine;
+import com.ubs.opsit.berlinclock.SecondClockLine;
+import com.ubs.opsit.berlinclock.TopHourClockLine;
+import com.ubs.opsit.berlinclock.TopMinuteClockLine;
 
 /**
  * Unit Test Coverage of representation of Seconds, Top Hour, Bottom Hour, Top Minute, Bottom Minute in Berlin Clock.
