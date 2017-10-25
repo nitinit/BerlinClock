@@ -12,8 +12,10 @@ public class RomanNumber {
 		romanIntegerMap.put(9, "IX");
 		romanIntegerMap.put(10, "X");
 		romanIntegerMap.put(50, "L");
+		romanIntegerMap.put(90,"XC");
 		romanIntegerMap.put(100, "C");
-		romanIntegerMap.put(500, "D");		
+		romanIntegerMap.put(500, "D");
+		romanIntegerMap.put(900, "CM");
 		romanIntegerMap.put(1000, "M");
 	}
 	

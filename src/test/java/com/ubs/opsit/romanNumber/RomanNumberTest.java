@@ -39,6 +39,12 @@ public class RomanNumberTest {
 	}
 	
 	@Test
+	public void test_RomanNumber_90(){
+		String romanNumber = romanNumberService.convert(50);
+		assertEquals("L", romanNumber);		
+	}
+	
+	@Test
 	public void test_RomanNumber_100(){
 		String romanNumber = romanNumberService.convert(100);
 		assertEquals("C", romanNumber);		
@@ -48,6 +54,12 @@ public class RomanNumberTest {
 	public void test_RomanNumber_500(){
 		String romanNumber = romanNumberService.convert(500);
 		assertEquals("D", romanNumber);		
+	}
+	
+	@Test
+	public void test_RomanNumber_900(){
+		String romanNumber = romanNumberService.convert(900);
+		assertEquals("CM", romanNumber);		
 	}
 	
 	@Test
@@ -90,7 +102,30 @@ public class RomanNumberTest {
 	public void test_RomanNumber_88(){
 		String romanNumber = romanNumberService.convert(88);
 		assertEquals("LXXXVIII", romanNumber);
+	}	
+	
+	@Test
+	public void test_RomanNumber_99(){
+		String romanNumber = romanNumberService.convert(99);
+		assertEquals("XCIX", romanNumber);
 	}
 	
+	@Test
+	public void test_RomanNumber_707(){
+		String romanNumber = romanNumberService.convert(707);
+		assertEquals("DCCVII", romanNumber);
+	}
+	
+	@Test
+	public void test_RomanNumber_964(){
+		String romanNumber = romanNumberService.convert(964);
+		assertEquals("CMLXIV", romanNumber);
+	}
+	
+	@Test
+	public void test_RomanNumber_1190(){
+		String romanNumber = romanNumberService.convert(1190);
+		assertEquals("MCXC", romanNumber);
+	}
 	
 }
