@@ -14,8 +14,7 @@ import com.ubs.opsit.berlinclock.TopMinuteClockLine;
  *
  */
 public class BerlinClockTest {
-	 
-     
+
     // Yellow lamp should blink on/off every two seconds
     @Test
     public void testYellowLampShouldBlinkOnOffEveryTwoSeconds() {
@@ -27,7 +26,7 @@ public class BerlinClockTest {
     // Top hours should have 4 lamps
     @Test
     public void testTopHoursShouldHave4Lamps() {
-        Assert.assertEquals(4, TopHourClockLine.getVal(7).length());
+        Assert.assertEquals(4, TopHourClockLine.getVal(12).length());
     }
  
     // Top hours should light a red lamp for every 5 hours
